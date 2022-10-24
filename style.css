@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(127, 14, 213);
+    text-align: center;
+}
+h1{
+    font-variant: small-caps;
+    margin-left: 100px;
+    color: blue;
+}
+#score{
+    font-size: 23px; 
+    margin-right: 450px;
+
+}
+#timer{
+    font-size: 23px;
+    margin-left: 450px;
+}
+#canvas{
+    text-align: center;
+    background-color: white;
+    border: 5px solid grey;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+p{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    color: none;
+}
+#draw_canvas{
+    color: red;
+}
+#show_sketch{
+    float:right;
+}
+
